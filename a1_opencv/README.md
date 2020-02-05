@@ -1,0 +1,33 @@
+# activity 1: Starting with OpenCV
+
+## Locally Installed OpenCV
+
+If you have OpenCV installed locally on your machine, you can run Python programs directly
+from the terminal, as specified in each sample program.
+
+
+## Docker 
+
+Once you have Docker Desktop running on your machine, you can use Docker to run given
+Python programs that use OpenCV. 
+
+### Building
+First run:
+
+`docker build -t opencv .`
+
+### Running
+
+To run each program in a docker container, run the following command, where `program.py` 
+is the name of the program.
+   
+`docker run --rm -v $(pwd)/project:/root opencv python program.py`
+
+Or, if the program requires some image input (say, `image.png`), you can run the following command.
+
+`docker run --rm -v $(pwd)/project:/root opencv python program.py --image image.png`
+
+### Output
+
+The output of each program is stored in the directory corresponding to the program name. See the source
+code for more information.
