@@ -4,7 +4,7 @@ Designed for use with [GitHub Classroom](https://classroom.github.com/), this
 repository contains the starter files for all programming class activities in Computer Science 310.
 
 
-## Updates
+## New Material Download
 
 When the course instructor provides the new material for the in-class activity,
  you can type this command in the main directory for this repository:
