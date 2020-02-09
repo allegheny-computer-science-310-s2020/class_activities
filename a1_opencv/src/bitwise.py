@@ -24,19 +24,23 @@ cv2.imwrite("images/bitwise/Circle.png", circle)
 # set to 255 in the output image). If both pixels
 # are not greater than zero, then the output pixel
 # is left 'OFF' with a value of 0.
-
+bitwiseAnd = cv2.bitwise_and(rectangle, circle)
+cv2.imwrite("images/bitwise/AND.png", bitwiseAnd)
 
 # A bitwise 'OR' examines every pixel in rectangle
 # and circle. If EITHER pixel in rectangle or circle
 # is greater than zero, then the output pixel has a
 # value of 255, otherwise it is 0.
 
+bitwiseOr = cv2.bitwise_or(rectangle, circle)
 
 # The bitwise 'XOR' is identical to the 'OR' function,
 # with one exception: both rectangle and circle are
 # not allowed to have values greater than 0.
 
+bitwiseXor = cv2.bitwise_xor(rectangle, circle)
 
 # Finally, the bitwise 'NOT' inverts the values of
 # the pixels. Pixels with a value of 255 become 0,
 # and pixels with a value of 0 become 255.
+bitwiseNot = cv2.bitwise_not(rectangle)

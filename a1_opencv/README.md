@@ -21,11 +21,11 @@ First run:
 To run each program in a docker container, run the following command, where `program.py` 
 is the name of the program.
    
-`docker run --rm -v $(pwd)/project:/root opencv python program.py`
+`docker run --rm -v $(pwd)/src:/root opencv python program.py`
 
 Or, if the program requires some image input (say, `image.png`), you can run the following command.
 
-`docker run --rm -v $(pwd)/project:/root opencv python program.py --image image.png`
+`docker run --rm -v $(pwd)/src:/root opencv python program.py --image image.png`
 
 ### Output
 
