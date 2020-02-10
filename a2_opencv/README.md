@@ -26,4 +26,4 @@ is the name of the program.
 
 ### Output
 
-The output of each program is stored in the `mages/output` directory.
+The output of each program is stored in the `images/output` directory.
