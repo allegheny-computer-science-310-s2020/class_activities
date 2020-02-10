@@ -1,7 +1,9 @@
 # from /src: python ball_detection.py
 # from a2_opencv: docker run --rm -v $(pwd)/src:/root opencv python motion_detection.py
 
-# ref: https://medium.com/analytics-vidhya/finding-waldo-feature-matching-for-opencv-9bded7f5ab10
+# ref: https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_template_matching/py_template_matching.html
+# ref: https://docs.opencv.org/2.4/doc/tutorials/imgproc/histograms/template_matching/template_matching.html
+
 import cv2
 import numpy as np
 

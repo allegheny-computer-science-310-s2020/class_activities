@@ -1,6 +1,9 @@
 # from src: python motion_detection.py
 # from a2_opencv: docker run --rm -v $(pwd)/src:/root opencv python ball_detection.py
+
 # ref: https://docs.opencv.org/3.4/d1/dc5/tutorial_background_subtraction.html
+# ref: https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_video_display/py_video_display.html
+
 import cv2
 
 cap = cv2.VideoCapture('video/Video.mov')
