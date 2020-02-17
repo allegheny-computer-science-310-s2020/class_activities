@@ -1,4 +1,7 @@
-# activity 4: Face and Eye Detection HAAR and Cascade Classifier
+# activity 5: Plant Classification using Random Forest Classifier
+
+## This program is incomplete. The implementation of training and testing are missing and to be 
+completed as a guided programming activity in class. 
 
 ## Locally Installed OpenCV
 
@@ -9,7 +12,7 @@ from the terminal, as specified in each sample program. You must be inside the `
 ## Docker 
 
 Once you have Docker Desktop running on your machine, you can use Docker to run given
-Python programs that use OpenCV.  You must be inside `a3_person-detection` directory.
+Python programs that use OpenCV.  You must be inside `a5_plant-classification` directory.
 
 
 ### Building
@@ -20,17 +23,10 @@ First run:
 
 ### Running
 
-To run the *face recognition* program in a docker container, run the following command, where `image.png` 
-is the image used for detection.
+To run the *plant classification* program in a docker container, run the following command, where `dataset` directory contains plant images and their masks.
    
-`docker run --rm -v $(pwd)/src:/root opencv python FaceRecognition.py --face cascades/haarcascade_frontalface_default.xml --image images/image.png`
-
-
-To run the *eye tracking* program in a docker container, run the following command, where `video.mov` 
-is the video used for tracking.
-
-`docker run --rm -v $(pwd)/src:/root opencv python EyeTracking.py --face cascades/haarcascade_frontalface_default.xml --eye cascades/haarcascade_eye.xml --video video/movie.mov`
+`docker run --rm -v $(pwd)/src:/root opencv python classify.py --images dataset/images --masks dataset/masks`
 
 ### Output
 
-The output of each program is stored in the `images/output` directory.
+The output of this program is stored in the `src` directory.
