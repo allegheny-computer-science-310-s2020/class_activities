@@ -51,35 +51,10 @@ targetNames = np.unique(target)
 le = LabelEncoder()
 target = le.fit_transform(target)
 
-# construct the training and testing splits
-(trainData, testData, trainTarget, testTarget) = train_test_split(data, target,
-                                                test_size=0.3, random_state=42)
+# TODO: construct the training and testing splits
 
-# train the classifier
-model = RandomForestClassifier(n_estimators=25, random_state=84)
-model.fit(trainData, trainTarget)
+# TODO: train the classifier
 
-# evaluate the classifier
-print(classification_report(testTarget, model.predict(testData),
-                            target_names=targetNames))
+# TODO: evaluate the classifier
 
-# loop over a sample of the images
-for i in np.random.choice(np.arange(0, len(imagePaths)), 10):
-    # grab the image and mask paths
-    imagePath = imagePaths[i]
-    maskPath = maskPaths[i]
-
-    # load the image and mask
-    image = cv2.imread(imagePath)
-    mask = cv2.imread(maskPath)
-    mask = cv2.cvtColor(mask, cv2.COLOR_BGR2GRAY)
-
-    # describe the image
-    features = desc.describe(image, mask)
-
-    # predict what type of flower the image is
-    flower = le.inverse_transform(model.predict([features]))[0]
-    print(imagePath)
-    print("I think this flower is a {}".format(flower.upper()))
-    # cv2.imwrite("output.png", image)
-    # cv2.waitKey(0)
+# TODO: testing loop
