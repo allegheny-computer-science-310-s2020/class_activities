@@ -9,7 +9,7 @@ from the terminal, as specified in each sample program. You must be inside the `
 ## Docker
 
 Once you have Docker Desktop running on your machine, you can use Docker to run given
-Python programs that use OpenCV.  You must be inside `a5_plant-classification` directory.
+Python programs that use OpenCV.  You must be inside `a6_LBP` directory.
 
 
 ### Building
@@ -22,7 +22,7 @@ First run:
 
 To run the program in a docker container, run the following command.
 
-`docker run --rm -v $(pwd)/src:/root opencv recognize.py --training images/training --testing images/testing`
+`docker run --rm -v $(pwd)/src:/root opencv python recognize.py --training images/training --testing images/testing`
 
 ### Output
 
