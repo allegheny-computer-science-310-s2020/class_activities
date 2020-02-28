@@ -21,14 +21,14 @@ The exam will consist of ten questions consisting of a mixture of the following 
 * Different types of agents.
 * Types of environments.
 * PEAS.
-* Search algorithms (different categories of search algorithms, specific algorithms discussed in class - what they do).
-* Agent-based simulation. How to run models in Netlogo and make changes to the interface.
-* Probability terminology and basic probability problems.
 * Overview of Computer Vision.
 * OpenCV: basic image operations.
 * Learning Overview.
-* Classification problem: SVM, Decision Trees. • General understanding of cascades.
+* Classification problem: SVM, Decision Trees, Random Forests. 
+* General understanding of cascades.
 * Object/face detection/recognition.
+* Probability terminology and basic probability problems.
+* Bayes Rule and Naive Bayes algorithm.
 
 ## Note: The remainder of this document contains practice questions for the first exam. It does not represent questions over all concepts that maybe covered during the exam. You are responsible for all material covered in class so far.
 
