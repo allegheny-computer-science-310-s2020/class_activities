@@ -1,8 +1,8 @@
-# CMPSC 310 Exam 1 Practice
+# CMPSC 310 Exam 1 Information and Practice
 # Name:
 
 ## Exam Information
-The first exam will be during the class session on Monday, March 3, starting at 11:00 am.
+The first exam will be held during the class session on Monday, March 2 at 11:00 am.
 The exam will be available via GitHub Classroom and must be submitted through each student's `exam1` repository.
 The exam will be open book and notes, including your class notes, my class notes and hand outs, but you can not use anything that has been printed from the Web or access anything through the Web during the exam, other than the course Website and the course GitHub repositories.
 
@@ -10,10 +10,10 @@ This exam may include questions on the material covered since the beginning of t
 
 ## Exam Format
 The exam will consist of ten questions consisting of a mixture of the following types of questions:
-• Multiple choice
-• Short answer (provide 2-3 sentence explanation and give an example)
-• Problem solving (given a stated problem, find a solution)
-• Program analysis (given a program/model, run it and obtain an output to answer the question)
+* Multiple choice
+* Short answer (provide 2-3 sentence explanation and give an example)
+* Problem solving (given a stated problem, find a solution)
+* Output analysis (given an output of a program, explain its meaning)
 
 ## Material (aka Things to Know)
 * What is AI? Connections to other disciplines and philosophical implications behind AI.
@@ -30,16 +30,16 @@ The exam will consist of ten questions consisting of a mixture of the following 
 * Classification problem: SVM, Decision Trees. • General understanding of cascades.
 * Object/face detection/recognition.
 
-##### Note: The remainder of this document contains practice questions for the first exam. It does notes represent a complete exam. You are responsible for all material covered in class so far. The exam will be open notes (printed or electronic) but closed to Internet searches.
+## Note: The remainder of this document contains practice questions for the first exam. It does not represent questions over all concepts that maybe covered during the exam. You are responsible for all material covered in class so far.
 
 
 ### Question 1 (put X inside the appropriate brackets)
 
 A reflex agent is an agent that:
-[ ] Builds a model of the environment and uses it to map percepts to actions
-[ ] Builds a model of the environment and uses it to reach a desirable state towards the goal
-[ ] Simply maps percepts to actions
-[ ] Builds a model of the environment and adapts it through learning
+- [ ] Builds a model of the environment and uses it to map percepts to actions
+- [ ] Builds a model of the environment and uses it to reach a desirable state towards the goal
+- [ ] Simply maps percepts to actions
+- [ ] Builds a model of the environment and adapts it through learning
 
 
 ### Question 2
@@ -53,7 +53,7 @@ RoboCup is an annual international robotics competition that aims to promote rob
 
 ### Question 3
 
-Based on the class discussions, readings and your preliminary understanding of "intelligence", provide one argument with justification (1-2 sentences) for and one argument against the following statement: "Intelligent machines can be ethical"
+Based on the class discussions, readings and your preliminary understanding of "intelligence", provide one argument with justification (1-2 sentences) for and one argument against the following statement: "Intelligent machines can be ethical".
 
 
 ### Question 4
@@ -69,7 +69,7 @@ When an alligator is hungry, the probability that it will eat is 0.9 (why not 1?
 
 ### Question 5
 
-Describe a sequence of computer vision functions one may utilize on images before applying some "intelligent" task (e.g., learning) on them. You must describe at least three functions. Provide explanation of and justification for the need of each one.
+Describe a sequence of computer vision functions one may utilize on images before applying some "intelligent" task (e.g., learning) on them. You must describe at least two functions. Provide explanation of and justification for the need of each one.
 
 
 ### Question 6
@@ -81,9 +81,9 @@ Consider the problem faced by a person learning to play tennis (or some other sp
 
 Assume we are using `hog.detectMultiScale` function of OpenCV.
 
-1. What is hog? How is it used in computer vision learning?
+1. What is `hog`? How is it used in computer vision learning?
 
-2. One of the parameters of the detectMultiScale function is `winStride`. What does this parameter represent? Comment on the effect of the value of this parameter on the performance of the learning task.
+2. One of the parameters of the `detectMultiScale` function is `winStride`. What does this parameter represent? Comment on the effect of the value of this parameter on the performance of the learning task.
 
 
 ### Question 8
