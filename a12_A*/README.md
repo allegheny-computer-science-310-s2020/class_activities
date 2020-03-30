@@ -21,7 +21,7 @@ agent chooses a cost function that reflects its own performance measure.
 For example, in the vacuum cleaning example we discussed during week 2, shown below,
 these components are defined as:
 
-![vacuum cleaner example][vacuum.png]
+![vacuum cleaner example](vacuum.png)
 
 - States: The state is determined by both the agent location and the dirt locations. The
 agent is in one of two locations, each of which might or might not contain dirt. Thus,
