@@ -1,4 +1,4 @@
-# activity 9: Unsupervised Learning, due April 6th, 2020
+# activity 11: Unsupervised Learning, due April 6th, 2020
 
 ## Summary
 

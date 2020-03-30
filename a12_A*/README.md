@@ -1,4 +1,4 @@
-# activity 10: Searching in AI, due April 6th, 2020
+# activity 12: Searching in AI, due April 6th, 2020
 
 ## Summary
 
