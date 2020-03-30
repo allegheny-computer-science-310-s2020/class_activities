@@ -5,7 +5,7 @@
 Searching techniques are an important part of AI as they allow problem-solving goal-oriented agents to find solutions to given problems by achieving a certain goal with a specific input.
 Searching is a step by step process to solve a search-problem in a given search space, where a search space represents a set of possible solutions.
 In short, searching algorithms identify and find a specific value within a given data structure.
-In searching a problem is formulated first, where we decide what actions and states to consider, given a goal.
+In searching, a problem is formulated first, where we decide what actions and states to consider, given a goal.
 A problem can be defined formally by five components:
 
 - _Initial (Start) State_: the state that the agent starts the search.
@@ -15,13 +15,13 @@ it can tell us what state the agent will end up in after taking a specific actio
 a particular state. Together, the initial state, actions, and transition model implicitly define the state space
 of the problem -- the set of all states reachable from the initial state by any sequence of actions.
 - _Goal test_: determines whether a given state is a goal state.
--_A path cost_: the function that assigns a numeric cost to each path. The problem-solving
+- _A path cost_: the function that assigns a numeric cost to each path. The problem-solving
 agent chooses a cost function that reflects its own performance measure.
 
 For example, in the vacuum cleaning example we discussed during week 2, shown below,
 these components are defined as:
 
-![vacuum][vacuum.pdf]
+![vacuum cleaner example][vacuum.png]
 
 - States: The state is determined by both the agent location and the dirt locations. The
 agent is in one of two locations, each of which might or might not contain dirt. Thus,
@@ -43,16 +43,16 @@ Different categories of searching algorithms exist, as described below.
 
 - _Uninformed search strategies (blind search)_:  strategies that have no additional  information about states beyond that provided in the problem definition. All they can do is
 generate successors and distinguish a goal state from a non-goal state. All search strategies
-are distinguished by the order in which nodes are expanded. Algorithms such as breadth-first search and depth-first search belong to this category.
+are distinguished by the order in which nodes are expanded. Algorithms such as breadth-first search and depth-first search belong to this category. 
+You are not required to learn how these specific algorithms work for this course, this content is covered in CMPSC 202.
 
 - _Informed search (heuristic search)_:  strategies that know whether one non-goal state is "more promising" than another.
 Informed strategies consider quantitative values such as heuristics while searching, and thus make more informed decisions regarding the next step to take.
 A node's _heuristic value_ is an estimated cost of the cheapest path from the state at node n to a goal state.
-
-While other algorithms guarantee to find a path from the initial node to a goal state , optimal search algorithms are the only ones that can guarantee to find a solution with the shortest path from start to goal. A* algorithm is one such algorithm.
+While other algorithms guarantee to find a path from the initial node to a goal state, optimal search algorithms are the only ones that can guarantee to find a solution with the shortest path from start to goal. A* algorithm is one such algorithm and is the topic of your hands-on exploration.
 
 ### A* Algorithm
-A* search (pronounced "A-star search") evaluates nodes by combining the cost to reach the node (denoted as g(n) and the cost
+A* search (pronounced "A-star search") evaluates nodes by combining the cost to reach the node (denoted as g(n)) and the cost
 to get from the node to the goal (denoted as h(n)).
 Since g(n) (the cost to reach the node) gives the path cost from the start node to node n, and h(n)
 (the cost to get from the node to the goal) is the estimated cost
@@ -62,14 +62,14 @@ node with the lowest value of g(n) + h(n).
 
 ## Tasks
 
-1. Read the summary above.
+1. Read the Summary above.
 
-2. Read the README [A* search](https://github.com/LogicJake/A-star-search). Clone and run the example if possible.
+2. Read the README in the [A* search repository](https://github.com/LogicJake/A-star-search). Clone and run the example if possible.
 This program uses _pygame_ to demonstrate an implementation of the A* algorithm on the problem of finding
 a shortest path. Once launched you need to click on the blocks in the environment to set up the initial and goal states,
 and the obstacles. You must enter the space button to proceed to the next step in this program.
-Do not worry about how the cost (numbers inside the states) were calculated. Instead, pay attention
-to the general working of the algorithm via this visualization. If you are able to run this example,
+Do not worry about how the cost (numbers inside the states) are calculated. Instead, pay attention
+to the general working strategy of the algorithm via this visualization. If you are able to run this example,
 try out different types of environment (easy, hard, ones with no path from start to goal) and see how
 algorithm performs under each one.
 
