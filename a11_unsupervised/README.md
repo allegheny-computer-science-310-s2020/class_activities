@@ -37,7 +37,7 @@ social network analysis, anomaly detection, market segmentation, medical imaging
 
 2. Read and follow coding examples in the [k_means Clustering](https://jakevdp.github.io/PythonDataScienceHandbook/05.11-k-means.html) Chapter.
 
-3. Create `clustering.py` program consisting of programming examples from the chapter above, store this program in the `a9_clustering/src/` directory.
+3. Create `clustering.py` program consisting of programming examples from the chapter above, store this program in the `a11_unsupervised/src/` directory.
 
 4. Write a reflection on this activity in the `writing/reflection.md` following the prompts given in the reflection document template.
 Include the output from the programming examples above inside your reflection document.
