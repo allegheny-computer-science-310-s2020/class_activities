@@ -1,7 +1,7 @@
 ### Reflection by Add Your Name Here
 
-1. Provide your general observations from running the search demonstration of finding the shortest path.
-How do you think the path is selected, that is how is the next state selected? How does the algorithm 
-perform with varying degree of the number of obstacles?
+1. Describe your chosen problem.
 
-2. Describe a realistic scenario where an AI agent using A* search strategy can be used to provide a solution.
+2. Include a decision tree and a decision network for your chosen problem.
+
+3. From your understanding of searching and planning in AI, name at least one similarity and one difference between these approaches.
