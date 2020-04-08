@@ -1,4 +1,4 @@
-# activity 12: Searching in AI, due April 8th, 2020 by midnight
+# activity 13: Searching in AI, due April 8th, 2020 by midnight
 
 ## Summary
 
@@ -43,7 +43,7 @@ Different categories of searching algorithms exist, as described below.
 
 - _Uninformed search strategies (blind search)_:  strategies that have no additional  information about states beyond that provided in the problem definition. All they can do is
 generate successors and distinguish a goal state from a non-goal state. All search strategies
-are distinguished by the order in which nodes are expanded. Algorithms such as breadth-first search and depth-first search belong to this category. 
+are distinguished by the order in which nodes are expanded. Algorithms such as breadth-first search and depth-first search belong to this category.
 You are not required to learn how these specific algorithms work for this course, this content is covered in CMPSC 202.
 
 - _Informed search (heuristic search)_:  strategies that know whether one non-goal state is "more promising" than another.
