@@ -1,4 +1,4 @@
-# activity 13: Logic and Future of AI, due April 22nd, 2020 by midnight
+# activity 14: Logic and Future of AI, due April 22nd, 2020 by midnight
 
 ## Summary
 
